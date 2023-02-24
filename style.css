@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+header {
+    background-color: lightblue;
+    height: 50px;
+}
+
+nav {
+    /* border: 5px dotted black; */
+    /*width: min-content;*/
+    height: inherit;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.about_us {
+    display: flex;
+    justify-content: center;
+}
+.about_us img {
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
+}
+.about_us-description {
+    display: flex;
+    flex-direction: column;
+}
+.about_us-description * {
+    padding: 5px;
+}
+.my_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.my_game > * {
+    text-align: center;
+}
+.my_game input, .my_game button {
+    border: 0;
+    /* background-color: gray; */
+    margin: 5px;
+    min-height: 30px;
+
+}
+.my_game button {
+    width: max-content;
+    background-color: lightgreen;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+.my_game input {
+    background-color: lightgray;
+    outline: none;
+}
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: darksalmon;
+    align-items: center;
+}
+.choosed_element {
+    border: 3px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 300px;
+    margin: 10px 160px;
+
+}
+span {
+    font-size: 15px;
+}
+.name {
+    color:red;
+}
+#skill {
+    color: green;
+}
+h1 {
+    padding: 0;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+h2 {
+    text-align: center;
+}
