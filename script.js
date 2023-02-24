@@ -176,4 +176,6 @@ function getPosts() {
 
 // createPost("title", "body", 15);
 
-showPostsButton.onclick = () => {getPosts()};
+// showPostsButton.onclick = () => {getPosts()};
+
+getPosts();

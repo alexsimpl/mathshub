@@ -10,14 +10,19 @@
 header {
     background-color: lightblue;
     height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav {
     /* border: 5px dotted black; */
     /*width: min-content;*/
     height: inherit;
+    width: inherit;
+    height: inherit;
     display: flex;
-    /* justify-content: start; */
+    justify-content: start;
     align-items: center;
 }
 
@@ -26,6 +31,14 @@ nav > a {
     color: black;
     padding: 0 30px;
     font-size: 20px;
+}
+
+nav > a:hover {
+    color: lightcoral;
+}
+
+main {
+    margin-top: 50px;
 }
 .about_us {
     display: flex;
