@@ -76,7 +76,7 @@ main {
 }
 .my_game button {
     width: max-content;
-    background-color: lightgreen;
+    background-color: lightblue;
     padding: 0 10px;
     border-radius: 3px;
 }
@@ -102,11 +102,13 @@ main {
     height: 200px;
     display: flex;
     justify-content: center;
-    background-color: darksalmon;
+    background-color: darkgray;
     align-items: center;
+    border-radius: 10px;
 }
 .choosed_element {
-    border: 3px solid black;
+    border: 3px solid lightblue;
+    margin: 1px;
 }
 
 
